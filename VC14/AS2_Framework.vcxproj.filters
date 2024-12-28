@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\Source\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Assets\vertex.vs.glsl" />
+    <None Include="..\Assets\fragment.fs.glsl" />
+    <None Include="post.vs.glsl" />
+    <None Include="quantize.fs.glsl" />
+    <None Include="pixelization.fs.glsl" />
+    <None Include="sinewave.fs.glsl" />
+    <None Include="magnifier.fs.glsl" />
+    <None Include="..\Assets\blur.fs.glsl" />
+    <None Include="..\Assets\bloom.fs.glsl" />
+    <None Include="..\Assets\abstraction.fs.glsl" />
+    <None Include="..\Assets\watercolor.fs.glsl" />
+  </ItemGroup>
+</Project>
